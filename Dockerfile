@@ -7,7 +7,7 @@ ARG BPEL4RESTLIGHT_DOWNLOAD_URL=http://files.opentosca.org/third-party/v2.0.0/bp
 ARG DOCKERIZE_VERSION=v0.3.0
 
 ENV BPS_HOME /opt/bps
-ENV REMOTE_HOSTNAME localhost
+ENV ENGINE_PLAN_HOSTNAME localhost
 
 RUN rm /dev/random && ln -s /dev/urandom /dev/random \
     && wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSION/dockerize-linux-amd64-$DOCKERIZE_VERSION.tar.gz \
