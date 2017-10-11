@@ -1,9 +1,12 @@
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-# OpenTOSCA Plan Engine
+# OpenTOSCA WSO2 BPS Plan Engine
 
 Repository to maintain OpenTOSCA's plan execution engine WSO2 BPS.
+
+This repository only contains a `Dockerfile` in order to build a ready-to-use Docker image.
+The image is built based on the artifacts staged on `files.opentosca.org`.
 
 ## Haftungsausschluss
 
